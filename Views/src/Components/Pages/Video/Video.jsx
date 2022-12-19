@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./video.css";
 import ReactPlayer from "../../ReactPlayer/ReactPlayer";
-import yoga from "../../images/yoga.mp4";
 import Axios from "../../Axios/Axios";
-import { Link } from "react-router-dom";
 import { RWebShare } from "react-web-share";
 import { useNavigate } from "react-router-dom";
 
@@ -32,7 +30,10 @@ const Video = () => {
         <div className="reels">
           {videoData.map((item, i) => (
             <div className="all-reels" key={i}>
-              <div className="lol" onClick={() => navigate(`/singleVideo/${item._id}`)}>
+              <div
+                className="lol"
+                onClick={() => navigate(`/singleVideo/${item._id}`)}
+              >
                 <ReactPlayer
                   class="reel-videojs"
                   options={{
@@ -49,7 +50,7 @@ const Video = () => {
                   onReady={handlePlayerReady}
                 />
               </div>
-              
+
               <div className="allreelsOverlay">
                 <RWebShare
                   data={{
