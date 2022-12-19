@@ -1,0 +1,161 @@
+.LoginPages {
+  width: 100%;
+}
+.login {
+  position: relative;
+  width: 25vmax;
+  left: 37.5vmax;
+  margin-top: 14vh;
+  text-align: center;
+  overflow: hidden;
+}
+.login img {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+.login h1 {
+  margin-top: 7%;
+  color: rgb(169, 169, 167);
+  font-size: 1.3vmax;
+  font-weight: 10;
+  font-family: Noto Sans Black;
+}
+.login h3 {
+  margin-top: 4%;
+  color: rgb(16, 0, 0);
+  font-size: 1.5vmax;
+  font-weight: 10;
+  font-family: Noto Sans Black;
+}
+.login input {
+  margin-top: 5%;
+  /* width: 75%; */
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: Noto Sans Black;
+  padding-left: 10px;
+}
+.login input:focus {
+  outline: none;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login form .top {
+  display: flex;
+  align-items: center;
+  gap: 0.5vmax;
+}
+.login form h5 {
+  margin-top: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+.login form h5 img {
+  width: 25px;
+  height: 18px;
+}
+.login form button {
+  width: 20.5vw;
+  border: none;
+  background: radial-gradient(red, #8a222be8);
+  color: white;
+  font-size: 18px;
+  margin-top: 3%;
+  font-family: Noto Sans Black;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 0.6vmax;
+}
+.login button:active {
+  transform: scale(0.9);
+}
+/* button before for shadow */
+.login button::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 20%;
+  background: #000;
+  opacity: 0.2;
+  z-index: -1;
+  transition: all 0.5s;
+  border-radius: 40%;
+  filter: blur(2px);
+}
+.login h5 {
+  margin-top: 10%;
+  font-family: Noto Sans Black;
+  font-size: 1.2vmax;
+  color: rgb(169, 169, 167);
+}
+.login h5 span {
+  color: #e20017e8;
+  cursor: pointer;
+}
+.login form .inp-cnt {
+  display: flex;
+  flex-direction: column;
+  height: 5vmax;  
+}
+.login form .inp-cnt small {
+  color: red;
+  font-size: 1vmax;
+  margin-top: 5px;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .login {
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    left: 0%;
+    margin-top: 30%;
+    text-align: center;
+    overflow: hidden;
+  }
+  .login h1 {
+    font-size: 2.3vmax;
+  }
+  .login h3 {
+    font-size: 2.7vmax;
+  }
+  .login h5 {
+    font-size: 2vmax;
+  }
+  .login form h5 {
+    margin-top: 7%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  .login form input {
+    margin: 9%;
+    margin-left: 2%;
+    font-size: 15px;
+  }
+  .login form button {
+    width: 40vw;
+    border: none;
+    background: radial-gradient(red, #8a222be8);
+    color: white;
+    font-size: 18px;
+    margin-top: 6%;
+    font-family: Noto Sans Black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    padding: 0.6vmax;
+  }
+}

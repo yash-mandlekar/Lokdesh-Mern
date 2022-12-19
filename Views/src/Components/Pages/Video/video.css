@@ -1,0 +1,167 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.vid {
+  background-color: white;
+  width: 100%;
+}
+.vjs-big-play-centered button{
+  border-radius: 0% !important;
+}
+.large-Logo {
+  height: 30vmax;
+  width: 100%;
+  background-color: black;
+}
+.large-Logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.allreelsOverlay {
+  position: absolute;
+  bottom: 4%;
+  right: 1%;
+  height: 5%;
+  width: 3vw;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+}
+.allreelsOverlay button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 5vh;
+    width: 5vh;
+    background-color: rgb(14, 103, 103);
+    fill: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.allreelsOverlay i {
+  font-size: 1.1vmax;
+  color: rgb(255, 255, 255);
+}
+.reels {
+    position: relative;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.all-reels {
+  position: relative;
+  width: 20vw;
+  border-radius: 9px;
+  margin-left: 1%;
+  margin-top: 2%;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+.all-reels:hover{
+    filter: brightness(0.6);
+    scale: 1.04;
+}
+/* .all-reels:hover{
+    filter: brightness(0.6);
+} */
+.allreelsShare {
+    bottom: 0%;
+    left: 0%;
+    height: 27%;
+    width: 8vw;
+    padding: 12px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  display: none;
+    
+  }
+
+
+@media (max-width: 700px) {
+  .reels {
+    position: relative;
+    height: 750px;
+    background-color: white;
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+    left: -0.5%;
+    scroll-snap-type: y mandatory;
+  }
+  .reels::-webkit-scrollbar {
+    display: none;
+  }
+  .reels {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .all-reels {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(195, 36, 36);
+    scroll-snap-align: start;
+    overflow: hidden;
+  }
+
+  .large-Logo {
+    display: none;
+  }
+  .reel-videojs {
+    height: 100vh !important;
+  }
+  .reel-videojs .vjs-tech {
+    width: unset !important;
+  }
+  .allreelsOverlay {
+    position: absolute;
+    bottom: 0%;
+    z-index: 100;
+    color: whitesmoke;
+    background-color: teal;
+  }
+
+  .allreelsOverlay h1 {
+    font-size: 1vmax;
+    color: white;
+  }
+  .allreelsShare {
+
+    bottom: 1%;
+    height: 27%;
+    width: 8vw;
+    padding: 12px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+  }
+  .allreelsShare {
+    position: absolute;
+    left: 1%;
+    height: 7%;
+    width: 38vw;
+    color: whitesmoke;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fbi{
+    height: 35px !important;
+    width: 35px !important;
+  }
+}

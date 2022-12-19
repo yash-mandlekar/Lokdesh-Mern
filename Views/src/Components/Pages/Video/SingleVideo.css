@@ -1,0 +1,436 @@
+.SingleVideo {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #ffffff;
+}
+.showSingleVideo {
+  margin-top: 3.9%;
+  width: 80vmax;
+  height: 40vmax;
+  display: flex;
+  border-radius: 0px;
+  background: #404040;
+  background-color: #000000;
+    border-radius: 0px;
+  background: #ffffff;
+  box-shadow: 20px 20px 37px #d9d9d9, -20px -20px 37px #ffffff;
+}
+.showvideoLeft {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0px;
+  background: #404040;
+  overflow: hidden;
+}
+.showvideoLeftt {
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+}
+.showvideoLeft video {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+.showvideoRight {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+.showvideoRightTop {
+  width: 100%;
+  height: 9%;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(247, 247, 247);
+  border-top: 1px solid rgb(242, 242, 242);
+}
+.showvideoRightTopLeft {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+}
+.showvideoRightTop img {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.showvideoRightTop h1 {
+  color: rgb(0, 0, 0);
+}
+.showvideoRightCenter {
+  width: 100%;
+  height: 75.2%;
+  overflow: auto;
+  background-color: rgb(255, 255, 255);
+}
+.showvideoRightCenter::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+.VideoDesc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.VideoDesc h1 {
+  color: rgb(12, 12, 12);
+  padding: 20px;
+  font-size: 0.9vmax;
+  font-family: Noto Sans Black;
+}
+.userComment {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 0%;
+}
+.userprofileComment {
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  background-color: rgb(255, 0, 119);
+}
+.userCommentText {
+  width: 100%;
+}
+.userCommentText h2 {
+  color: black;
+  font-size: 1vmax;
+  padding: 20px;
+}
+.showvideoRightBottom {
+  width: 100%;
+  height: 16%;
+  background-color: rgb(247, 247, 247);
+  border-top: 1px solid rgb(225, 225, 225);
+
+}
+
+
+.showvideoRightTopShare {
+  height: 100%;
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.allreelSharwee {
+  height: 5%;
+  width: 3vw;
+  z-index: 100;
+  margin-left: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+.allreelSharwee button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 3.5vh;
+  width: 3.5vh;
+  background-color: rgb(14, 103, 103);
+  fill: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.allreelSharwee i {
+  color: rgb(252, 252, 252);
+  font-size: 1.02vmax;
+  border: none;
+}
+.showvideoRightBottomTop {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  
+}
+.showvideoRightBottomBottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showvideoRightBottomTopLeft i {
+  color: rgb(0, 0, 0);
+  font-size: 1.5vmax;
+}
+.showvideoRightBottomTopLeft a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1vmax;
+  margin-left: 10%;
+}
+.showvideoRightBottomTopLeft {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+  padding-left: 13px;
+  cursor: pointer;
+}
+
+.showvideoRightBottomTopLeftTop i {
+  color: rgb(0, 0, 0);
+  font-size: 1.4vmax;
+  margin-left: 10%;
+}
+.showvideoRightBottomBottom input {
+  height: 5vh;
+  width: 30vw;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding-left: 10px;
+  font-size: 1vmax;
+  font-family: cursive;
+  border: 1px solid rgb(227, 227, 227);
+  padding-left: 10px;
+  margin-left: 4.5%;
+  margin-bottom: 1%;
+  background-color: rgb(255, 255, 255);
+}
+.showvideoRightBottomBottom a {
+  padding-right: 11px;
+  font-size: 1.1vmax;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .SingleVideo {
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10%;
+    background-color: #ffffff;
+  }
+  .showSingleVideo {
+    margin-top: 0%;
+    height: 40vmax;
+    display: initial;
+    border-radius: 0px;
+    background: #404040;
+    background-color: #000000;
+    border: none;
+    border-radius: 0px;
+    background: #ffffff;
+    box-shadow: none;
+    margin-left: -1%;
+  }
+  .showvideoLeft {
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0px;
+    background: #404040;
+    overflow: hidden;
+  }
+  .showvideoLeftt {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .showvideoLeft video {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+  .showvideoRight {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  .showvideoRightTop {
+    display: none;
+  }
+  .showvideoRightTop img {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .showvideoRightTop h1 {
+    color: rgb(0, 0, 0);
+  }
+  .showvideoRightCenter {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+  }
+  .showvideoRightCenter::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+  .VideoDesc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .VideoDesc h1 {
+    color: rgb(12, 12, 12);
+    padding: 20px;
+    font-size: 1.5vmax;
+    font-family: Noto Sans Black;
+  }
+  .userComment {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: -3%;
+  }
+  .userprofileComment {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    background-color: rgb(255, 0, 119);
+  }
+  .userCommentText {
+    width: 100%;
+  }
+  .userCommentText h2 {
+    color: black;
+    font-size: 1.2vmax;
+    padding: 20px;
+  }
+  .showvideoRightBottom {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(247, 247, 247);
+    border-top: 1px solid rgb(225, 225, 225);
+  }
+
+  .showvideoRightTopLeft {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+  }
+  .showvideoRightTopShare {
+    height: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .allreelSharwee {
+    height: 5%;
+    width: 3vw;
+    z-index: 100;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+  }
+  .allreelSharwee button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 3.5vh;
+    width: 3.5vh;
+    background-color: rgb(14, 103, 103);
+    fill: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .allreelSharwee i {
+    color: rgb(252, 252, 252);
+    font-size: 1.02vmax;
+    border: none;
+  }
+  .showvideoRightBottomTop {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  .showvideoRightBottomBottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .showvideoRightBottomTopLeft i {
+    color: rgb(0, 0, 0);
+    font-size: 2.3vmax;
+  }
+  .showvideoRightBottomTopLeft a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.8vmax;
+    margin-left: 10%;
+    white-space: nowrap;
+  }
+  .showvideoRightBottomTopLeft {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    padding-left: 13px;
+    cursor: pointer;
+  }
+
+  .showvideoRightBottomTopLeftTop i {
+    color: rgb(0, 0, 0);
+    font-size: 2.1vmax;
+    margin-left: 10%;
+  }
+  .showvideoRightBottomBottom input {
+    height: 3vh;
+    width: 70vw;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding-left: 12px;
+    font-size: 1vmax;
+    font-family: cursive;
+    border: 1px solid grey;
+    padding-left: 10px;
+    margin-left: 6%;
+  }
+  .showvideoRightBottomBottom a {
+    padding-right: 11px;
+    font-size: 1.1vmax;
+    text-decoration: none;
+  }
+}
