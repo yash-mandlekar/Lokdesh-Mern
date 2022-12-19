@@ -1,0 +1,45 @@
+
+.timerCoundown{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timerCoundown h1{
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1vmax;
+    margin: 0;
+    padding: 0;
+    color: rgb(73, 75, 79);
+    font-family: 'Roboto', sans-serif;
+}
+.timerCoundown h2{
+   display: inline-block;
+   color: red;
+    font-size: 1vmax;
+}
+
+@media (max-width: 500px) {
+    .timerCoundown{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12%;
+    }
+    .timerCoundown h1{
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 1.8vmax;
+        margin: 0;
+        padding: 0;
+        color: rgb(73, 75, 79);
+        font-family: 'Roboto', sans-serif;
+    }
+    .timerCoundown h2{
+       display: inline-block;
+       color: red;
+        font-size: 2vmax;
+    }
+}
