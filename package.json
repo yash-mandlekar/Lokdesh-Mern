@@ -4,10 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "npx nodemon ./app.js",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "npx nodemon ./app.js",
-    "client": "npm start --prefix views",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix views"
   },
   "keywords": [],
   "author": "",
